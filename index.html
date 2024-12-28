@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>知行合一计算器</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="calculator">
+        <h1 id="title">知行合一计算器</h1>
+        <div class="input-group">
+            <label for="head-price">头部价格:</label>
+            <input type="number" id="head-price" placeholder="头部价格">
+        </div>
+        <div class="input-group">
+            <label for="neck-price">颈部价格:</label>
+            <input type="number" id="neck-price" placeholder="颈部价格">
+        </div>
+        <div class="button-group">
+            <button id="calculate-button">计算</button>
+            <button id="not-fifteen-times-button">不够十五倍</button>
+        </div>
+        
+        <div class="output-group">
+            <div class="output">
+                <label for="target-price">目标价格:</label>
+                <span id="target-price">0.00</span>
+            </div>
+            <div class="output">
+                <label for="stop-price">止损价格:</label>
+                <span id="stop-price">0.00</span>
+            </div>
+            <div class="output">
+                <label for="reward-ratio">报酬比:</label>
+                <span id="reward-ratio">0.00</span>
+            </div>
+        </div>
+        <div class="buy-price-output">
+            <label for="buy-price">买入价格:</label>
+            <span id="buy-price">0.00</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
